@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-project",
+  "version": "1.0.0",
+  "description": "A Discord bot for community engagement.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^16.0.0",
+    "@types/ws": "^8.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "community",
+    "engagement"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
